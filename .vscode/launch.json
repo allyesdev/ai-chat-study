@@ -5,19 +5,46 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "01-simple-chat",
+      "name": "3.9.2.1-simple-chat",
       "type": "debugpy",
       "request": "launch",
-      "program": "${workspaceFolder}/01-simple-chat.py",
+      "program": "${workspaceFolder}/3.9.2.1-simple-chat.py",
       "console": "integratedTerminal",
       "python": "${workspaceFolder}/venv/bin/python3.13",
       "envFile": "${workspaceFolder}/.env"
     },
     {
-      "name": "02-multi-chat",
+      "name": "3.9.2.2-multi-chat",
       "type": "debugpy",
       "request": "launch",
-      "program": "${workspaceFolder}/02-multi-chat.py",
+      "program": "${workspaceFolder}/3.9.2.2-multi-chat.py",
+      "console": "integratedTerminal",
+      "python": "${workspaceFolder}/venv/bin/python3.13",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "name": "3.9.2.3-multi-chat-stream",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/3.9.2.3-multi-chat-stream.py",
+      "console": "integratedTerminal",
+      "python": "${workspaceFolder}/venv/bin/python3.13",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "name": "3.9.2.4-trim-messages",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/3.9.2.4-trim-messages.py",
+      "console": "integratedTerminal",
+      "python": "${workspaceFolder}/venv/bin/python3.13",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "name": "3.9.4-rag.py",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/3.9.4-rag.py",
       "console": "integratedTerminal",
       "python": "${workspaceFolder}/venv/bin/python3.13",
       "envFile": "${workspaceFolder}/.env"
