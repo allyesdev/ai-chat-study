@@ -2,4 +2,8 @@ langchain==0.3.27
 langchain-openai==0.3.34
 langchain-ollama==0.3.10
 langchain-community==0.3.20
+transformers==4.57.0
 dotenv==0.9.9
+PyPDF2==3.0.1
+pypdf==6.1.1
+faiss-cpu==1.12.0
