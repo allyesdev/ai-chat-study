@@ -17,7 +17,7 @@ from selenium.webdriver.chrome.options import Options
 
 driver = webdriver.Chrome()
 
-url = "https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=0&ie=utf8&query=%EC%98%81%ED%99%94+%EB%B3%B4%EC%8A%A4+%ED%8F%89%EC%A0%90&ackey=d8kdncox"
+url = "https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&ssc=tab.nx.all&query=%EC%98%81%ED%99%94+%EA%B8%B0%EC%83%9D%EC%B6%A9+%EA%B4%80%EB%9E%8C%ED%8F%89&oquery=%EC%98%81%ED%99%94+%EB%B3%B4%EC%8A%A4+%EA%B4%80%EB%9E%8C%ED%8F%89&tqi=jnvxbwqVN8osstuBtHKsssssssl-455711&ackey=wtkcavxf"
 driver.get(url)
 
 

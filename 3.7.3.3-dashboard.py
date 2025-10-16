@@ -29,7 +29,7 @@ st.altair_chart(chart, use_container_width=True)
 # 3. 별점 평균 및 분포
 st.subheader("⭐️ 평균 평점")
 avg_rate = df["rate_review"].mean()
-st.metric(label="평균 평점", value=f"{avg_rate:.2f} / 5")
+st.metric(label="평균 평점", value=f"{avg_rate:.2f} / 10")
 
 rate_chart = alt.Chart(df).mark_bar().encode(x="rate_review:O", y="count()")
 st.altair_chart(rate_chart, use_container_width=True)
