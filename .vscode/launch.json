@@ -5,6 +5,33 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "3.7.3.1-crawl-data",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/3.7.3.1-crawl-data.py",
+      "console": "integratedTerminal",
+      "python": "${workspaceFolder}/venv/bin/python3.13",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "name": "3.7.3.2-analyze-data",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/3.7.3.2-analyze-data.py",
+      "console": "integratedTerminal",
+      "python": "${workspaceFolder}/venv/bin/python3.13",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "name": "3.7.3.3-dashboard",
+      "envFile": "${workspaceFolder}/.env",
+      "type": "python",
+      "request": "launch",
+      "program": "-m",
+      "args": ["streamlit", "run", "${workspaceFolder}/3.7.3.3-dashboard.py"],
+      "console": "integratedTerminal"
+    },
+    {
       "name": "3.9.2.1-simple-chat",
       "type": "debugpy",
       "request": "launch",
